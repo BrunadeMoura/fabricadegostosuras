@@ -304,20 +304,20 @@
     margin-bottom: 2rem;
   }
   
-  /*----------------cake and sweets----------------*/
-  #cake {
+  /*----------------about----------------*/
+  #about {
     background-color: white;
   }
   
-  #cake .container {
+  #about .container {
     margin: 0;
   }
   
-  #cake .image {
+  #about .image {
     position: relative;
   }
   
-  #cake .image::before {
+  #about .image::before {
     content: '';
     height: 100%;
     width: 100%;
@@ -328,16 +328,16 @@
     z-index: 0;
   }
   
-  #cake .image img {
+  #about .image img {
     position: relative;
   }
   
-  #cake .image img,
-  #cake .image::before {
+  #about .image img,
+  #about .image::before {
     border-radius: 0.25rem;
   }
   
-  #cake .text {
+  #about .text {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
@@ -606,8 +606,8 @@
       text-align: left;
     }
     
-    /*cake and sweets*/
-    #cake .container {
+    /*about*/
+    #about .container {
       margin: 0 auto;
       grid-auto-flow: column;
     }
